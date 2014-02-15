@@ -1,0 +1,42 @@
+{
+  "name": "dynamic-discovery",
+  "version": "0.0.1",
+  "description": "Dynamically discover NodeJS instances based on capabilities and availability",
+  "main": "none",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "~1.9.0",
+    "grunt": "~0.4.2",
+    "grunt-mocha": "~0.4.10",
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "grunt-mocha": "~0.4.10",
+    "chai": "~1.9.0",
+    "jasmine-node": "~1.13.1",
+    "grunt-jasmine-node": "~0.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlyledavis/dynamic-discovery.git"
+  },
+  "keywords": [
+    "service",
+    "discovery",
+    "dynamic",
+    "routing",
+    "distributed",
+    "computing"
+  ],
+  "author": "Carlyle S. Davis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlyledavis/dynamic-discovery/issues"
+  }
+}
