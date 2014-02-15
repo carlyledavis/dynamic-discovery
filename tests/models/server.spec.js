@@ -11,13 +11,15 @@ describe( 'Server Model', function(){
     {
         var server = new Server({capabilities: ["http://account.int.cou/account-services"],
             port:3000,
-            authentication:'Basic'
+            authentication:'Basic',
+            ipAddress: '123.123.123.123'
         });
 
         expect( server.id).to.be.a('string');
         expect(new RegExp('[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}').test(server.id)).to.equal(true);
         expect( server.port).to.equal( 3000);
         expect( server.authentication).to.equal( 'Basic');
+        expect( server.ipAddress).to.equal( '123.123.123.123');
     });
 
     it( 'Should initialize variables to know values if no scheme is provided', function()
@@ -46,7 +48,7 @@ describe( 'Server Model', function(){
         var server = new Server({capabilities:['foo', 'bar']}, '9e7a4bab-c820-4443-ac22-2a57bede6476');
         var str = server.serialize();
 
-        expect( str).to.equal( 'eyJpZCI6IjllN2E0YmFiLWM4MjAtNDQ0My1hYzIyLTJhNTdiZWRlNjQ3NiIsInBvcnQiOjMwMDAsImNhcGFiaWxpdGllcyI6WyJmb28iLCJiYXIiXSwiYXV0aGVudGljYXRpb24iOiJCYXNpYyJ9');
+        expect( str).to.equal( 'eyJpZCI6IjllN2E0YmFiLWM4MjAtNDQ0My1hYzIyLTJhNTdiZWRlNjQ3NiIsInBvcnQiOjMwMDAsImNhcGFiaWxpdGllcyI6WyJmb28iLCJiYXIiXSwiYXV0aGVudGljYXRpb24iOiJCYXNpYyIsImlwQWRkcmVzcyI6IjAuMC4wLjAifQ==');
     });
 
     it( 'Should create a server from a bas64 encoded server specification', function()

@@ -9,12 +9,12 @@ var Server = module.exports = function( serverDescription, serverId )
     this.port = serverDescription.port || 3000;
     this.capabilities = serverDescription.capabilities || [];
     this.authentication = serverDescription.authentication || 'Basic';
+    this.ipAddress = serverDescription.ipAddress || '0.0.0.0';
 };
 
 Server.prototype.serialize = function()
 {
     var str = JSON.stringify( this );
-    console.log( str );
     return new Buffer( str).toString( 'base64');
 };
 
