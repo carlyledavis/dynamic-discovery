@@ -13,11 +13,15 @@ module.exports = function(grunt) {
                 useDotNotation: true,
                 consolidate: true
             }
+        },
+        jshint: {
+            all: ['Gruntfile.js', '*.js']
         }
     });
 
     grunt.loadNpmTasks( 'grunt-mocha');
     grunt.loadNpmTasks( 'grunt-jasmine-node');
+    grunt.loadNpmTasks('grunt-contrib-jshint');
 
     grunt.registerTask( 'test', ['jasmine_node']);
 };

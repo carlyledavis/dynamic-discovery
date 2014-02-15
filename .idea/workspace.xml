@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="540add87-d8d3-4dc0-abb0-f17f8fb0b5dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/server.js" afterPath="$PROJECT_DIR$/models/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/models/server.spec.js" afterPath="$PROJECT_DIR$/tests/models/server.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GruntFile.js" afterPath="$PROJECT_DIR$/GruntFile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/discovery.js" afterPath="$PROJECT_DIR$/discovery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="dynamic-discovery.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,10 +56,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.spec.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="server.spec.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/models/server.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="49" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.65625" vertical-offset="540" max-vertical-offset="1020">
+            <state line="57" column="49" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -67,7 +68,16 @@
       <file leaf-file-name="GruntFile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GruntFile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="17" column="39" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discovery.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/discovery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="26" selection-start="361" selection-end="361" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -95,9 +105,10 @@
         <option value="$PROJECT_DIR$/discover-client.js" />
         <option value="$PROJECT_DIR$/tests/server.spec.js" />
         <option value="$PROJECT_DIR$/moels/server.js" />
-        <option value="$PROJECT_DIR$/GruntFile.js" />
         <option value="$PROJECT_DIR$/models/server.js" />
         <option value="$PROJECT_DIR$/tests/models/server.spec.js" />
+        <option value="$PROJECT_DIR$/GruntFile.js" />
+        <option value="$PROJECT_DIR$/discovery.js" />
       </list>
     </option>
   </component>
@@ -153,34 +164,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic-discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic-discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic-discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dynamic-discovery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -190,7 +173,7 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.nodejs" />
+    <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSHint" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
@@ -341,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GruntFile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="29" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
@@ -357,7 +333,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/models/server.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="49" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.65625" vertical-offset="540" max-vertical-offset="1020">
+        <state line="57" column="49" selection-start="2429" selection-end="2429" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GruntFile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="39" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/discovery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="26" selection-start="361" selection-end="361" vertical-scroll-proportion="0.375" vertical-offset="0" max-vertical-offset="480">
           <folding />
         </state>
       </provider>
